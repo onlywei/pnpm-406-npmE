@@ -1,0 +1,17 @@
+{
+  "name": "uc-build-support",
+  "version": "0.2.0",
+  "description": "UC JavaScript Build Support",
+  "authors": [
+    "Yunchi Luo <yunchi@compass.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/UrbanCompass/urbancompass.git"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "pnpm": "1.9.0"
+  }
+}

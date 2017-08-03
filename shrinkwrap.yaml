@@ -1,0 +1,11 @@
+devDependencies:
+  pnpm: 1.9.0
+packages:
+  /pnpm/1.9.0:
+    dev: true
+    resolution:
+      integrity: sha512-tsACRoMN32bQUIXKxTX/CMqYP2nL5vF3C82bRkAPDqAjYMethhnYnFCsXIQVcTfH4f49haR97OYooeq4SA6VMw==
+registry: 'https://npm-registry.compass.com/'
+shrinkwrapVersion: 3
+specifiers:
+  pnpm: 1.9.0
