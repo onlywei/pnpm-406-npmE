@@ -44,9 +44,17 @@ bug to be reproducible:
    the issue does surface, deleting the `shrinkwrap.yaml` file does not surface the issue, and when
    you compare the _new_ `shrinkwrap.yaml` to the one that was deleted, there are *no changes*.
 
-We did some debugging on the URL that `pnpm` is trying to install from. When it installs
-successfully, it's pulling from https://npm-registry.compass.com/p/pnpm/_attachments/pnpm-1.9.0.tgz.
-When it fails, it's pulling from https://npm-registry.compass.com/pnpm/-/pnpm-1.9.0.tgz.
+We did some debugging on the URL that `pnpm` is trying to install from.
+
+When it installs successfully, it's pulling from:
+```
+https://npm-registry.compass.com/p/pnpm/_attachments/pnpm-1.9.0.tgz
+```
+
+When it fails, it's pulling from:
+```
+https://npm-registry.compass.com/pnpm/-/pnpm-1.9.0.tgz
+```
 
 Let us know if you need any further help reproducing this issue.
 
